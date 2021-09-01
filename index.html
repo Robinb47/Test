@@ -5,10 +5,6 @@
     <title> Test </title>
     <link href="styles.css" rel="stylesheet" />
 
-    <script>
-        window.addEventListener('popstate', function (event) {
-//Your code here
-        });</script>
 
 </head>
 <body>
@@ -20,8 +16,9 @@
 </div>
 
 
+
 <script>
-    function verfication() {
+function verfication() {
         let bodyDiv = document.getElementById("buttonField");
         bodyDiv.innerText = "OK";
 
@@ -29,6 +26,12 @@
     }
 
 
+</script>
+
+<script>
+    window.onhashchange = function() {
+        window.close();
+    }
 </script>
 </body>
 </html>

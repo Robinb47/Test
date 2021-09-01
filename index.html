@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <title> Test </title>
     <link href="styles.css" rel="stylesheet" />
+
+    <script>
+        window.addEventListener('popstate', function (event) {
+//Your code here
+        });</script>
+
 </head>
 <body>
+
 <p> Hallo, das hier ist ein Test. </p>
 
 <div id="buttonField">
@@ -17,7 +24,12 @@
     function verfication() {
         let bodyDiv = document.getElementById("buttonField");
         bodyDiv.innerText = "OK";
+
+        location.href = "https://robinb47.github.io/Test/";
     }
+
+
 </script>
 </body>
 </html>
+

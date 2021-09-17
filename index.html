@@ -15,23 +15,20 @@
     <button onclick="verfication()"> Klick </button>
 </div>
 
-
-
 <script>
 function verfication() {
-        let bodyDiv = document.getElementById("buttonField");
-        bodyDiv.innerText = "OK";
-
-        location.href = "https://robinb47.github.io/Test/";
+    window.location.replace("vesternesse.hucompute.org/recaptcha/reCaptcha");
+    //wenn captcha in zwei Minuten gelöst wird.
+    document.getElementById("accessEnabled");
     }
-
-
 </script>
 
 <script>
+    /*
     window.onhashchange = function() {
         window.close();
     }
+     */
 </script>
 </body>
 </html>
